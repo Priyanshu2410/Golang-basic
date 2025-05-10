@@ -40,8 +40,8 @@ func main() {
 		age  int
 		city string
 	}
-	
-	people := map[string]Person{
+
+	var people = map[string]Person{
 		"Bob":   {age: 25, city: "New York"},
 		"Alice": {age: 30, city: "London"},
 	}
@@ -50,11 +50,11 @@ func main() {
 	cityPopulation := map[string]map[string]int{
 		"USA": {
 			"New York": 8400000,
-			"Chicago": 2700000,
+			"Chicago":  2700000,
 		},
 		"India": {
-			"Mumbai":   12400000,
-			"Delhi":    11000000,
+			"Mumbai": 12400000,
+			"Delhi":  11000000,
 		},
 	}
 
